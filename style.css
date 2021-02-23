@@ -1,0 +1,170 @@
+:root{
+  --button-background-color: #DD5A6A;
+  --button-text-color: #FFFFFF;
+}
+
+.main {
+	background-image: url('asset/Banner_image_3.png');
+	width: 100vw;
+	background-repeat: no-repeat;
+	min-height: 100%;
+}
+
+#headertext {
+	color: #FFFFFF;
+	font-family: Titillium;
+	font-size: 31px;
+	letter-spacing: 1.28px;
+	line-height: 40px;
+	width: 622px;
+	text-align: left;
+	margin-top: 10vh;
+}
+
+#headerSubText {
+	color: #FFFFFF;
+	font-family: StagSans;
+	font-size: 25px;
+	letter-spacing: 3.59px;
+	line-height: 34px;
+	width: 599px;
+	text-align: left;
+}
+
+.button {
+	background-color:var(--button-background-color);
+	border-radius: 4px;
+	padding: 0.75rem;
+	border: none;
+}
+
+.button-bottom {
+  background-color: blue;
+	border-radius: 4px;
+	padding: 0.75rem;
+	border: none;
+}
+
+.button-text {
+	color:var(--button-text-color);
+	font-family: Arial;
+	font-size: 14.4px;
+	line-height: 17px;
+	text-align: left;
+}
+.button-submit{
+  background-color:var(--button-background-color);
+	border-radius: 4px;
+	padding: 0.75rem;
+	border: none;
+}
+
+.rectangle {
+	background-color: #FFFFFF;
+	margin-bottom: 2rem;
+	height: 28rem;
+}
+
+.enquire {
+	color: #213559;
+	font-family: StagSans;
+	font-size: 20.08px;
+	line-height: 24px;
+	width: 127px;
+	text-align: left;
+	margin-top: 1rem;
+}
+
+.form-control {
+	margin: 10px 0;
+}
+
+.bmt {
+	background-image: linear-gradient(to right, #2EC4B8 0%, #6078EA 100%);
+	border-radius: 4px !important;
+}
+
+.bone-marrow {
+	margin-top: 1rem;
+	padding-bottom: 1rem;
+	border-bottom: 1px solid #ECECFF;
+}
+
+.bone-marrow-list {
+	margin-top: 5vh;
+	list-style-image: url('asset/hospital.png');
+}
+
+.bone-marrow-list li {
+	line-height: 5vh;
+}
+
+.green-text {
+	color: #22B78E;
+	font-family: StagSans;
+	font-size: 31px;
+	letter-spacing: 1.28px;
+	line-height: 44px;
+}
+
+.blue-text {
+	color: #1D5AA6;
+	font-family: StagSans;
+	font-size: 22px;
+	letter-spacing: 1.76px;
+	line-height: 26px;
+	text-align: center;
+}
+
+.blue-text-2 {
+	color: #1D5AA6;
+	font-family: StagSans;
+	font-size: 15px;
+	letter-spacing: 1.2px;
+	line-height: 20px;
+	text-align: center;
+}
+
+.know-more {
+	color: var(--button-text-color) !important;
+	background-image: linear-gradient(to right,  #17EAD9 , #6078EA );
+	border: none !important;
+}
+
+.doctor-img {
+	width: 50% !important;
+	margin: 0 auto;
+}
+
+.doctor-card {
+	background-color: #F9F9FF !important;
+	border: none !important;
+}
+
+.green-space {
+	margin-top: 15vh !important;
+}
+
+.wrapper {
+	display: flex;
+	overflow-x: auto;
+	margin-top: 15vh;
+}
+
+.wrapper::-webkit-scrollbar {
+	width: 0;
+}
+
+.wrapper .item {
+	min-width: 40vw;
+	min-height: 30vh;
+}
+
+.accordion-header-text {
+	color: #1D5AA6;
+	font-family: StagSans;
+	font-size: 20px;
+	letter-spacing: 1.6px;
+	line-height: 22px;
+	text-align: left;
+}
